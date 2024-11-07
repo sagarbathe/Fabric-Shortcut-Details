@@ -5,14 +5,17 @@ Currently, there is no way in Fabric to show details of all the shortcuts create
 This repo will consist of a notebook and Power BI report sample. The notebook captures metadata about all the shortcuts across all lakehouses and workspaces in your Fabric tenant. 
 
 Prerquisites:
-Please ensure all capacities in your Fabric tenant are running before you run the notebook. Once the notebook is executed successfully, capacities can be paused (except the one where the Power BI report will use)
-Currently, the Shortcuts API (List Shortcuts) does not support Service Principal or Managed identities. So a user idnentity is needed to run the notebook. See more details here (https://learn.microsoft.com/en-us/rest/api/fabric/core/onelake-shortcuts/list-shortcuts?tabs=HTTP)
-It is advisable to run the notebook as Workspace Admin user. It can be run as Workspace Contributor/Member user, but there may be additional privileges needed to execute some of the APIs/utilities in the notebook. You can view the Power BI report with a Workspace viewer role though
+- Please ensure all capacities in your Fabric tenant are running before you run the notebook. Once the notebook is executed successfully, capacities can be paused (except the one where the Power BI report will use)
+- Currently, the Shortcuts API (List Shortcuts) does not support Service Principal or Managed identities. So a user idnentity is needed to run the notebook. See more details here (https://learn.microsoft.com/en-us/rest/api/fabric/core/onelake-shortcuts/list- 
+  shortcuts?tabs=HTTP)
+- It is advisable to run the notebook as Workspace Admin user. It can be run as Workspace Contributor/Member user, but there may be additional privileges needed to execute some of the APIs/utilities in the notebook. You can view the Power BI report with a 
+  Workspace viewer role though
 
 
 Steps:
 
-Import the notebook 'GetFabricShortcuts.ipynb' in the workspace of your choice.
-Follow all the instructions in the notebook. After successful completion of the notebook, a delta table called 'ShortcutsMetadata' will be created in the lakehouse you had specified in the notebook
-Create a custom semantic model (dataset) called 'sm_ShortcutsMetadata' in the lakehouse you had selected in the notebook. Include the table 'ShortcutsMetadata' in the semantic model
-Import the Power BI report 'Fabric Workspace Shortcut Details' in Power BI desktop. Ensure you are logged in as same user as in Fabric. You should see a pop-up that report is not able to find the dataset. Click on Edit and select semantic model (dataset) created in the previous step. Save and publish the report in the workspace you saved the notebook and semantic model earlier. Now you should be able to open the report in Fabric and use it
+- Import the notebook 'GetFabricShortcuts.ipynb' in the workspace of your choice.
+- Follow all the instructions in the notebook. After successful completion of the notebook, a delta table called 'ShortcutsMetadata' will be created in the lakehouse you had specified in the notebook
+- Create a custom semantic model (dataset) called 'sm_ShortcutsMetadata' in the lakehouse you had selected in the notebook. Include the table 'ShortcutsMetadata' in the semantic model
+- Import the Power BI report 'Fabric Workspace Shortcut Details' in Power BI desktop. Ensure you are logged in as same user as in Fabric. You should see a pop-up that report is not able to find the dataset. Click on Edit and select semantic model (dataset) created 
+  in the previous step. Save and publish the report in the workspace you saved the notebook and semantic model earlier. Now you should be able to open the report in Fabric and use it
