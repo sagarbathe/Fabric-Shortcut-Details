@@ -19,3 +19,10 @@ Steps:
 - Create a custom semantic model (dataset) called 'sm_ShortcutsMetadata' in the lakehouse you had selected in the notebook. Include the table 'ShortcutsMetadata' in the semantic model
 - Import the Power BI report 'Fabric Workspace Shortcut Details' in Power BI desktop. Ensure you are logged in as same user as in Fabric. You should see a pop-up that report is not able to find the dataset. Click on Edit and select semantic model (dataset) created 
   in the previous step. Save and publish the report in the workspace you saved the notebook and semantic model earlier. Now you should be able to open the report in Fabric and use it
+
+PowerBI Report screenshots:
+
+![image](https://github.com/user-attachments/assets/b77d7f89-1ecb-42ee-90b1-89443e4282f1)
+
+![image](https://github.com/user-attachments/assets/0f761ad5-56df-4d5a-916d-f32b08a7b00c)
+
