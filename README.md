@@ -6,9 +6,8 @@ This repo will consist of a notebook and Power BI report sample. The notebook ca
 
 Prerquisites:
 - Please ensure all capacities in your Fabric tenant are running before you run the notebook. Once the notebook is executed successfully, capacities can be paused (except the one where the Power BI report will use)
-- Currently, the Shortcuts API (List Shortcuts) does not support Service Principal or Managed identities. So a user idnentity is needed to run the notebook. See more details here (https://learn.microsoft.com/en-us/rest/api/fabric/core/onelake-shortcuts/list-shortcuts?tabs=HTTP)
-- It is advisable to run the notebook as Fabric Admin user since the shortcut API does not support service principal at this time
-
+- Currently, the Shortcuts API (List Shortcuts) does not support Service Principal or Managed identities. So a user idnentity is needed to run the notebook. See more details here (https://learn.microsoft.com/en-us/rest/api/fabric/core/onelake-shortcuts/list- shortcuts?tabs=HTTP)
+- It is advisable to run the notebook as Fabric Admin user since the 'Get workspaces' API needs to be run by a Fabric Admin or a service principal, but the shortcut API does not support service principal at this time. Please ensure the Fabric Admin user has atleast Viewer access on all the workspaces within the Fabric Tenant
 
 Steps:
 
