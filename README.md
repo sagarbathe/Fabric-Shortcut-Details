@@ -24,7 +24,10 @@ Steps:
 
 PowerBI Report screenshots:
 
-![image](https://github.com/user-attachments/assets/b77d7f89-1ecb-42ee-90b1-89443e4282f1)
+![image](https://github.com/user-attachments/assets/a31b365a-fa93-412a-8f0a-b60503979209)
 
-![image](https://github.com/user-attachments/assets/0f761ad5-56df-4d5a-916d-f32b08a7b00c)
+![image](https://github.com/user-attachments/assets/225869f8-4394-4669-8957-3ebddca47eb1)
+
+![image](https://github.com/user-attachments/assets/21dac989-eb8e-48dd-90ae-2b75f5fcaf22)
+
 
