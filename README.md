@@ -1,3 +1,7 @@
+Updated 2025-02-18:
+Added separate tables and reports for internal and external shortcuts.
+
+
 # Fabric-Shortcut-Details
 
 Currently, there is no way in Fabric to show details of all the shortcuts created in workspaces and lakehouses. The objective of this project is to capture this information via the Fabric Shortcut REST APIs and use Power BI to visualize this information
