@@ -17,8 +17,8 @@ Prerquisites:
 Steps:
 
 - Import the notebook 'GetFabricShortcuts.ipynb' in the workspace of your choice.
-- Follow all the instructions in the notebook. After successful completion of the notebook, a delta table called 'ShortcutsMetadata' will be created in the lakehouse you had specified in the notebook
-- Create a custom semantic model (dataset) called 'sm_ShortcutsMetadata' in the lakehouse you had selected in the notebook. Include the table 'ShortcutsMetadata' in the semantic model
+- Follow all the instructions in the notebook. After successful completion of the notebook, 3 delta tables (ShortcutsMetadata, int_ShortcutsMetadata, ext_ShortcutsMetadata) will be created in the lakehouse you had specified in the notebook
+- Create a custom semantic model (dataset) called 'sm_ShortcutsMetadata' in the lakehouse you had selected in the notebook. Include the 3 tables mentioned above in the semantic model
 - Import the Power BI report 'Fabric Workspace Shortcut Details' in Power BI desktop. Ensure you are logged in as same user as in Fabric. You should see a pop-up that report is not able to find the dataset. Click on Edit and select semantic model (dataset) created 
   in the previous step. Save and publish the report in the workspace you saved the notebook and semantic model earlier. Now you should be able to open the report in Fabric and use it
 
