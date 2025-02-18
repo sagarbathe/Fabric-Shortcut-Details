@@ -23,11 +23,13 @@ Steps:
   in the previous step. Save and publish the report in the workspace you saved the notebook and semantic model earlier. Now you should be able to open the report in Fabric and use it
 
 PowerBI Report screenshots:
-
+Summary -
 ![image](https://github.com/user-attachments/assets/a31b365a-fa93-412a-8f0a-b60503979209)
 
+Internal Shortcuts -
 ![image](https://github.com/user-attachments/assets/225869f8-4394-4669-8957-3ebddca47eb1)
 
+External Shortucts -
 ![image](https://github.com/user-attachments/assets/21dac989-eb8e-48dd-90ae-2b75f5fcaf22)
 
 
